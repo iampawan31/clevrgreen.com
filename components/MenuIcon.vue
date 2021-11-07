@@ -1,5 +1,9 @@
 <template>
-  <div class="cursor-pointer group">
+  <div
+    :class="menuOpen ? 'change' : ''"
+    class="cursor-pointer group"
+    @click="toggleMenu"
+  >
     <div
       class="
         menu-icon-top
@@ -29,7 +33,32 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      menuOpen: false,
+    }
+  },
+  methods: {
+    toggleMenu() {
+      this.menuOpen = !this.menuOpen
+    },
+  },
+}
 </script>
 
-<style></style>
+<style scoped>
+.change .menu-icon-top {
+  -webkit-transform: rotate(-45deg) translate(-5px, 5px);
+  transform: rotate(-45deg) translate(-5px, 5px);
+}
+
+.change .menu-icon-middle {
+  opacity: 0;
+}
+
+.change .menu-icon-bottom {
+  -webkit-transform: rotate(45deg) translate(-7px, -6px);
+  transform: rotate(45deg) translate(-7px, -6px);
+}
+</style>
