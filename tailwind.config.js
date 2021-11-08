@@ -29,6 +29,7 @@ module.exports = {
       alternate: '#363636',
       secondary: '#ffffff',
       typo: '#4a4a4a',
+      lessGray: '#666666',
       black: '#000000',
       lessBlack: '#242424',
     },

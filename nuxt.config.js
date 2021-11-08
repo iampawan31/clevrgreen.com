@@ -1,4 +1,8 @@
 export default {
+  loading: {
+    color: '#93c43b',
+    height: '5px',
+  },
   target: 'static',
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -31,10 +35,6 @@ export default {
       {
         rel: 'preconnect',
         href: 'https://fonts.gstatic.com',
-      },
-      {
-        rel: 'stylesheet',
-        href: 'href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"',
       },
     ],
   },
