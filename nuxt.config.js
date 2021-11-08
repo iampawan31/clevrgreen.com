@@ -9,7 +9,12 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'Experience the Clevrgreen difference today. Mastergrowers are standing by ready to get you setup and your path to growing to great green. Harvest 100% Guaranteed!',
+      },
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [

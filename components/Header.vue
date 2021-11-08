@@ -1,7 +1,7 @@
 <template>
   <div
     :class="isHomePage ? 'mt-10' : 'mt-0'"
-    class="fixed top-0 bg-secondary w-full shadow"
+    class="fixed top-0 z-50 bg-secondary w-full shadow"
   >
     <div class="container mx-auto px-44">
       <div
