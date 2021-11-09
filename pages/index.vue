@@ -2,9 +2,9 @@
   <div class="mt-14">
     <!-- Section One -->
     <div class="bg-alternate py-16 text-secondary">
-      <div class="container mx-auto px-40">
+      <div class="container mx-auto px-4 lg:px-40">
         <div class="flex flex-col justify-content items-center">
-          <h2 class="top-line text-center text-headerTitle">
+          <h2 class="top-line text-center text-3xl lg:text-headerTitle">
             The only growkit company also providing plant caretaking services in
             Southern California!
           </h2>
@@ -23,7 +23,16 @@
     </div>
 
     <!-- Section Three -->
-    <div class="flex justify-between py-32 space-x-6">
+    <div
+      class="
+        flex flex-col
+        lg:flex-row
+        justify-between
+        py-32
+        space-y-24
+        lg:space-y-0 lg:space-x-6
+      "
+    >
       <div class="flex justify-center items-center space-y-4 flex-col">
         <div class="border-primary rounded-full border-4 w-10">
           <svg
@@ -78,15 +87,22 @@
           </svg>
         </div>
         <div class="uppercase text-center">
-          yield more green for less with our smart indoor homegrow kit
+          grow with peace of mind. 100% Harvest guaranteed
         </div>
       </div>
     </div>
 
     <!-- Section Four -->
-    <div class="py-16 container mx-auto px-40">
+    <div class="py-8 lg:py-16 container mx-auto px-4 lg:px-40">
       <div class="flex justify-center flex-col items-center">
-        <h2 class="top-line text-center text-headerTitle text-lessBlack">
+        <h2
+          class="
+            top-line
+            text-center text-3xl
+            lg:text-headerTitle
+            text-lessBlack
+          "
+        >
           Grow Great Green, Guaranteed
         </h2>
         <div class="pt-6 max-w-3xl text-center">
@@ -119,11 +135,11 @@
     </div>
 
     <!-- Section Five -->
-    <div class="py-24 container mx-auto px-40">
-      <div class="text-headerTitle text-lessBlack text-center pb-6">
+    <div class="py-8 lg:py-24 container mx-auto px-4 lg:px-40">
+      <div class="text-3xl lg:text-headerTitle text-lessBlack text-center pb-6">
         There's more reasons to grow green in your home than ever.
       </div>
-      <div class="flex space-x-8">
+      <div class="flex flex-col lg:flex-row space-x-8">
         <div>
           <div class="text-3xl">It's your right.</div>
           <div class="pt-4">
@@ -143,7 +159,7 @@
           </div>
         </div>
       </div>
-      <div class="flex pt-8 space-x-8">
+      <div class="flex flex-col lg:flex-row pt-8 space-x-8">
         <div>
           <div class="text-3xl">Control what you consume.</div>
           <div class="pt-4">
@@ -176,17 +192,26 @@
 
     <!-- Section Six -->
     <div class="bg-alternate text-secondary">
-      <div class="py-16 container mx-auto px-40">
+      <div class="py-16 container mx-auto px-4 lg:px-40">
         <div class="flex justify-center flex-col items-center">
-          <h2 class="top-line text-center text-5xl">Proof in the green.</h2>
-          <div class="pt-6 max-w-3xl text-center">
+          <h2 class="top-line text-center text-3xl lg:text-5xl">
+            Proof in the green.
+          </h2>
+          <div class="pt-6 lg:max-w-3xl text-sm lg:text-base text-center">
             Our Mastergrowers have been medical caretakers for over a decade
             specializing in growing ultra-premium flower for their patients. We
             take great pride in making sure that the growers using our kits are
             able to produce the same level of results we get for our own
             patients.
           </div>
-          <div class="font-semibold my-4">
+          <div
+            class="
+              font-semibold
+              text-sm text-center
+              lg:text-left lg:text-base
+              my-4
+            "
+          >
             Don't just take our word for it. See the dank results of our kit
             @CLEVRGREENWORKS.
           </div>

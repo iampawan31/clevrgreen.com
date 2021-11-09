@@ -1,7 +1,9 @@
 <template>
   <div class="pt-10 mb-36">
-    <div class="container mx-auto px-80">
-      <div class="text-5xl text-center text-black">Refund Policy</div>
+    <div class="container mx-auto px-4 lg:px-80">
+      <div class="text-3xl lg:text-5xl text-center text-black">
+        Refund Policy
+      </div>
       <div class="mt-6">
         We have a 30-day return policy, which means you have 30 days after
         receiving your item to request a return.

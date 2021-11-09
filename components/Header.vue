@@ -1,9 +1,9 @@
 <template>
   <div
-    :class="isHomePage ? 'mt-10' : 'mt-0'"
+    :class="isHomePage ? 'mt-32 lg:mt-10' : 'mt-0'"
     class="fixed top-0 z-50 bg-secondary w-full shadow"
   >
-    <div class="container mx-auto px-44">
+    <div class="container mx-auto px-4 lg:px-44">
       <div
         class="h-14 flex justify-start align-middle content-center items-center"
       >

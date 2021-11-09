@@ -4,21 +4,24 @@
       bg-primary
       fixed
       top-0
-      h-10
+      h-32
+      p-4
+      lg:h-10
       mb-10
       w-full
       flex
+      z-50
       justify-center
       items-center
       text-center text-secondary
       content-center
     "
   >
-    <div class="container mx-0 px-40">
-      <div class="">
+    <div class="container mx-0 px-4 lg:px-40">
+      <p class="text-md lg:text-base">
         Free delivery & install in San Diego & Orange County, CA. Shipping
         available in North America.
-      </div>
+      </p>
     </div>
   </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto px-40 text-center">
+  <div class="container mx-auto py-8 lg:py-16 px-4 lg:px-40 text-center">
     <div class="testimonial-slider">
       <ul class="slider">
         <li>

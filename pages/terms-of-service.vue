@@ -1,7 +1,9 @@
 <template>
   <div class="pt-10 mb-36">
-    <div class="container mx-auto px-80">
-      <div class="text-5xl text-center text-black">Terms of service</div>
+    <div class="container mx-auto px-4 lg:px-80">
+      <div class="text-3xl lg:text-5xl text-center text-black">
+        Terms of service
+      </div>
       <div class="mt-6">
         <div class="font-semibold">OVERVIEW</div>
         <div>

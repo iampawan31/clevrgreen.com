@@ -55,7 +55,7 @@ export default {
 }
 
 .accordion:after {
-  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  content: '▶︎'; /* Unicode character for "plus" sign (+) */
   font-size: 13px;
   color: #000000;
   float: right;
@@ -63,7 +63,7 @@ export default {
 }
 
 .active:after {
-  content: '\2796'; /* Unicode character for "minus" sign (-) */
+  content: '▼'; /* Unicode character for "minus" sign (-) */
   color: #ffffff;
 }
 

@@ -1,7 +1,7 @@
 <template>
-  <div class="container mx-auto px-40 mb-16">
-    <div class="flex justify-between">
-      <div class="flex flex-col">
+  <div class="container mx-auto px-4 lg:px-40 mb-16">
+    <div class="flex flex-col lg:flex-row justify-between">
+      <div class="grid grid-cols-2 lg:grid-cols-1">
         <NuxtLink
           to="/contact-us"
           class="
@@ -46,7 +46,7 @@
         </NuxtLink>
       </div>
       <div>
-        <div class="text-xl uppercase font-semibold mb-4">
+        <div class="text-xl uppercase font-semibold mt-4 lg:mt-0 mb-4">
           Help us, help you grow
         </div>
         <div class="max-w-md text-sm">

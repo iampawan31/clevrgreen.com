@@ -1,7 +1,7 @@
 <template>
   <div class="py-16">
-    <div class="container mx-auto px-24">
-      <div class="grid grid-cols-2 gap-4">
+    <div class="container mx-auto px-4 lg:px-24">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
         <div>
           <div class="text-4xl mb-4">Contact information</div>
           <div class="mb-2 font-semibold">

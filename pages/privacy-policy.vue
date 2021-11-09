@@ -1,14 +1,18 @@
 <template>
   <div class="pt-10 mb-36">
-    <div class="container mx-auto px-8 lg:px-80">
-      <div class="text-5xl text-center text-black">Privacy policy</div>
+    <div class="container mx-auto px-4 lg:px-80">
+      <div class="text-3xl lg:text-5xl text-center text-black">
+        Privacy policy
+      </div>
       <div class="my-6">
         This Privacy Policy describes how www.clevrgreen.com (the “Site” or
         “we”) collects, uses, and discloses your Personal Information when you
         visit or make a purchase from the Site.
       </div>
       <div class="mt-6">
-        <div class="text-4xl mb-2">Collecting Personal Information</div>
+        <div class="text-3xl lg:text-4xl mb-2">
+          Collecting Personal Information
+        </div>
         <p class="mb-4">
           When you visit the Site, we collect certain information about your
           device, your interaction with the Site, and information necessary to
