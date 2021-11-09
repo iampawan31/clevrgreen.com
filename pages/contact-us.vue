@@ -22,12 +22,16 @@
             of the message
           </div>
           <hr class="border-b border-alternate my-16 opacity-40" />
-          <div class="text-4xl">Pricing</div>
+          <div class="text-4xl mb-4">Pricing</div>
           <Accordian :items="pricingFaqsData" />
           <hr class="border-b border-alternate my-16 opacity-40" />
-          <div class="text-4xl">What's in the kit and how does it work?</div>
+          <div class="text-4xl mb-4">
+            What's in the kit and how does it work?
+          </div>
+          <Accordian :items="howItWorksData" />
           <hr class="border-b border-alternate my-16 opacity-40" />
-          <div class="text-4xl">FAQ</div>
+          <div class="text-4xl mb-4">FAQ</div>
+          <Accordian :items="faqsData" />
         </div>
         <div><h1>Hello World</h1></div>
       </div>
@@ -36,11 +40,17 @@
 </template>
 
 <script>
-import { pricingFaqs } from '../data'
+import { pricingFaqs, howItWorks, faqs } from '../data'
 export default {
   computed: {
     pricingFaqsData() {
       return pricingFaqs
+    },
+    howItWorksData() {
+      return howItWorks
+    },
+    faqsData() {
+      return faqs
     },
   },
 }

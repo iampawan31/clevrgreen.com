@@ -5,9 +5,8 @@
       :class="isActive ? 'active' : ''"
       class="accordion"
       @click="isActive = !isActive"
-    >
-      {{ item.title ? item.title : '' }}
-    </button>
+      v-html="item.title ? item.title : ''"
+    ></button>
     <div
       :class="isActive ? 'block max-h-full' : 'hidden max-h-0'"
       class="panel"
@@ -45,6 +44,7 @@ export default {
   border: none;
   outline: none;
   transition: 0.4s;
+  margin-bottom: 1px;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
