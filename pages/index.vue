@@ -4,7 +4,7 @@
     <div class="bg-alternate py-16 text-secondary">
       <div class="container mx-auto px-4 lg:px-40">
         <div class="flex flex-col justify-content items-center">
-          <h2 class="top-line text-center text-3xl lg:text-headerTitle">
+          <h2 class="top-line text-center text-3xl md:text-headerTitle">
             The only growkit company also providing plant caretaking services in
             Southern California!
           </h2>
@@ -26,11 +26,12 @@
     <div
       class="
         flex flex-col
-        lg:flex-row
+        md:flex-row
         justify-between
         py-32
         space-y-24
-        lg:space-y-0 lg:space-x-6
+        px-4
+        md:px-8 md:space-y-0 md:space-x-6
       "
     >
       <div class="flex justify-center items-center space-y-4 flex-col">
@@ -135,8 +136,16 @@
     </div>
 
     <!-- Section Five -->
-    <div class="py-8 lg:py-24 container mx-auto px-4 lg:px-40">
-      <div class="text-3xl lg:text-headerTitle text-lessBlack text-center pb-6">
+    <div class="py-8 lg:py-24 container mx-auto px-4 lg:px-8 xl:px-40">
+      <div
+        class="
+          text-3xl
+          md:text-4xl
+          lg:text-headerTitle
+          text-lessBlack text-center
+          pb-6
+        "
+      >
         There's more reasons to grow green in your home than ever.
       </div>
       <div class="flex flex-col lg:flex-row space-x-8">
@@ -194,10 +203,10 @@
     <div class="bg-alternate text-secondary">
       <div class="py-16 container mx-auto px-4 lg:px-40">
         <div class="flex justify-center flex-col items-center">
-          <h2 class="top-line text-center text-3xl lg:text-5xl">
+          <h2 class="top-line text-center text-3xl md:4xl lg:text-5xl">
             Proof in the green.
           </h2>
-          <div class="pt-6 lg:max-w-3xl text-sm lg:text-base text-center">
+          <div class="pt-6 md:max-w-3xl text-sm md:text-base text-center">
             Our Mastergrowers have been medical caretakers for over a decade
             specializing in growing ultra-premium flower for their patients. We
             take great pride in making sure that the growers using our kits are
@@ -208,7 +217,8 @@
             class="
               font-semibold
               text-sm text-center
-              lg:text-left lg:text-base
+              md:text-base
+              lg:text-left
               my-4
             "
           >

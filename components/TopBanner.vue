@@ -5,6 +5,7 @@
       fixed
       top-0
       h-32
+      md:h-14
       p-4
       lg:h-10
       mb-10

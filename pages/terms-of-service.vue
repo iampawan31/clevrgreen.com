@@ -1,6 +1,6 @@
 <template>
   <div class="pt-10 mb-36">
-    <div class="container mx-auto px-4 lg:px-80">
+    <div class="container mx-auto px-4 sm:px-10 lg:px-32 xl:px-80">
       <div class="text-3xl lg:text-5xl text-center text-black">
         Terms of service
       </div>

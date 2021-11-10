@@ -1,7 +1,7 @@
 <template>
-  <div class="container mx-auto px-4 lg:px-40 mb-16">
-    <div class="flex flex-col lg:flex-row justify-between">
-      <div class="grid grid-cols-2 lg:grid-cols-1">
+  <div class="container mx-auto px-4 md:px-10 lg:px-40 mb-16">
+    <div class="flex flex-col md:flex-row justify-between">
+      <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-1">
         <NuxtLink
           to="/contact-us"
           class="
